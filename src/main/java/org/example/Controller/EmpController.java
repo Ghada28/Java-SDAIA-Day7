@@ -32,7 +32,7 @@ public class EmpController {
                 return Response
                         .ok(emps)
                         .type(MediaType.APPLICATION_XML)
-
+                        .build();
             }
             return Response
                     .ok(emps, MediaType.APPLICATION_JSON)
